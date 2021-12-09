@@ -12,7 +12,7 @@ body{
 
 .navbar a{
 	text-decoration: none;
-	color: 9F2042;
+	color: #9F2042;
 	text-align: center;
 	padding: 0px 20px 0px 20px;
 }
@@ -27,8 +27,12 @@ body{
 
 .navbar a.active{
 	color: white;
-	background-color: 9F2042;
+	background-color: #9F2042;
 	border-radius: 10px;
+}
+
+.typed-cursor {
+	color: #9F2042;
 }
 
 .main-content{
@@ -76,6 +80,10 @@ body{
 	border-right: solid;
 	border-color: #9F2042;
 	max-height: 400px;
+}
+
+.main-content span{
+	color: #9F2042;
 }
 
 .footer {
