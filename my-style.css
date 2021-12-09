@@ -39,3 +39,13 @@ body{
 	margin-right: 15%;
 	margin-left: 15%;
 }
+
+.main-content p{
+	padding: 20px 20px 20px 20px;
+	text-shadow: black;
+}
+
+.main-content a{
+	text-decoration: none;
+	color: #9F2042;
+}
