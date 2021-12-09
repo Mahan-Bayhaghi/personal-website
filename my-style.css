@@ -24,3 +24,9 @@ body{
 	background-color: #9F2042;
 	border-radius: 10px;
 }
+
+.navbar a.active{
+	color: white;
+	background-color: 9F2042;
+	border-radius: 10px;
+}
