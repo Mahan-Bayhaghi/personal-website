@@ -75,6 +75,7 @@ body{
 	float: right;
 	border-right: solid;
 	border-color: #9F2042;
+	max-height: 400px;
 }
 
 .footer {
