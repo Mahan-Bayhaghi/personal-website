@@ -49,3 +49,17 @@ body{
 	text-decoration: none;
 	color: #9F2042;
 }
+
+.footer {
+	font-family: 'Mitr', cursive;
+	position: fixed;
+	overflow: hidden;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #590D22;
+    color: white;
+    text-align: center;
+}
