@@ -9,3 +9,18 @@ body{
 	text-align: center;
 	padding: 0px 0px 0px 0px;
 }
+
+.navbar a{
+	text-decoration: none;
+	color: 9F2042;
+	text-align: center;
+	padding: 0px 20px 0px 20px;
+}
+
+.navbar a:hover{
+	transition-duration: 0.3s;
+	transition-delay: 0.1s;
+	color: white;
+	background-color: #9F2042;
+	border-radius: 10px;
+}
