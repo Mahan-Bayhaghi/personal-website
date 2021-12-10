@@ -155,6 +155,51 @@ body{
 	}
 }
 
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 10px 10px;
+	overflow: hidden;
+}
+
+.contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 15px 0px;
+	border: 3px;
+	border-left-style: solid;
+	background: #EAE4E9;
+	padding: 20px 40px;
+	outline: none;
+	color: #9F2042;
+	transition: 0.2s;
+}
+
+.contact-form-text:focus{
+	box-shadow: 0 0 4px 2px #9F2042;
+}
+
+textarea.contact-form-text{
+	resize: none;
+	height: 200px;
+}
+
+.contact-form-btn{
+	float: right;
+	border: 0;
+	background: #9F2042;
+	color: #EAE4E9;
+	padding: 10px 30px;
+	border-radius: 30px;
+	transition: 0.2s;
+}
+
+.contact-form-btn:hover{
+	color: #9F2042;
+	background-color: white;
+}
+
 .footer {
 	font-family: 'Mitr', cursive;
 	position: fixed;
