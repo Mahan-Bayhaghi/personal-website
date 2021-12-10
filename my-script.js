@@ -1,4 +1,3 @@
-
 function send() {
 	var r = confirm("Do you want to send this message ?");
 	if (r==true){

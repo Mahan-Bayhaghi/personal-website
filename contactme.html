@@ -10,7 +10,6 @@
 		<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Poppins:wght@300&family=Redacted+Script:wght@300&family=Roboto+Mono:ital,wght@1,200&family=Squada+One&family=Sriracha&display=swap" rel="stylesheet"> 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		<script type="text/javascript" src="my-script.js"></script>
 	</head>
 	<body>
 		<div class="navbar">
@@ -22,17 +21,17 @@
 
 		<div class="main-content">
 			<form class="contact-form" id="myForm">
-				<label style="display: inline;"><i class="fa fa-user-circle" aria-hidden="true"></i> Name :</label>
+				<label><i class="fa fa-user-circle" aria-hidden="true"></i> Name :</label>
 				<input type="text" class="contact-form-text" placeholder="Enter your name">
 				<label><i class="fa fa-envelope" aria-hidden="true"></i> Email address :</label>
 				<input type="email" class="contact-form-text" placeholder="Enter your email">
-				<label><i class="fa fa-info" aria-hidden="true"></i> Message</label>
+				<label><i class="fa fa-info" aria-hidden="true"></i> Message :</label>
 				<textarea class="contact-form-text" placeholder="Enter message"></textarea>
 				
-				<button class="contact-form-btn" onclick="send()"> Send </button>
+				<input type="submit" class="contact-form-btn" onclick ="send()" form="myForm" value="send">
+				<!--<button class="contact-form-btn" onclick="send()"> Send </button>-->
 			</form>
 		</div>
-
 
 		<br><br><br><br><br>
 		<div class="footer" id="Footer"> 
@@ -53,5 +52,6 @@
 				</tr>
 			</table>
 		</div>
+		<script type="text/javascript" src="my-script.js"></script>
 	</body>
 </html>
