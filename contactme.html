@@ -21,12 +21,14 @@
 		</div>
 
 		<div class="main-content">
-			<form class="contact-form">
-
+			<form class="contact-form" id="myForm">
+				<label style="display: inline-block;">Name :</label>
 				<input type="text" class="contact-form-text" placeholder="Enter your name">
+				<label>Email address :</label>
 				<input type="email" class="contact-form-text" placeholder="Enter your email">
 				<textarea class="contact-form-text" placeholder="Enter message"></textarea>
-				<input type="submit" class="contact-form-btn" value="send" id="sybmit-btn">
+				
+				<button class="contact-form-btn" onclick="send()"> Send </button>
 
 			</form>
 		</div>

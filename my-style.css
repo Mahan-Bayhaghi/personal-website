@@ -81,6 +81,7 @@ body{
 
 .main-content span{
 	color: #9F2042;
+	display: inline-block;
 }
 
 .main-content table{
@@ -163,6 +164,7 @@ body{
 }
 
 .contact-form-text{
+	font-size: 18px;
 	display: block;
 	width: 100%;
 	box-sizing: border-box;
@@ -181,6 +183,7 @@ body{
 }
 
 textarea.contact-form-text{
+	font-size: 15px;
 	resize: none;
 	height: 200px;
 }
