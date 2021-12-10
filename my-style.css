@@ -1,5 +1,6 @@
 body{
 	background-color: #FFF0F3;
+	justify-content: center;
 }
 
 .navbar{
@@ -90,6 +91,70 @@ body{
 .main-content td{
 	width: 400px;
 	min-width: 75px;
+}
+
+
+.skills{
+	border-color: #9F2042;
+	border-left-style: solid;
+	display: inline-block;
+	width: 100%;
+	max-width: 600px;
+	padding: 0 20;
+}
+
+.skill-name{
+	font size: 18px;
+	color: #9F2042;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+
+.skill-bar{
+	height: 15px;
+	background: #EAE4E9;
+	border-radius: 3px;
+}
+
+.skill-per{
+	height: 15px;
+	background-color: #9F2042;
+	border-radius: 3px;
+	position: relative;
+	animation: fillBars 2s 1;
+}
+
+.skill-per::before{
+	content: attr(per);
+	position: absolute;
+	padding: 4px 6px;
+	background: white;
+	border-radius: 4px;
+	font-size: 12px;
+	top: -35px;
+	right: 0;
+	transform: translateX(50%);
+}
+
+.skill-per::after{
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	top: -15px;
+	right: 0;
+	transform: translateX(50%) rotate(45deg);
+	border-radius: 2px;
+}
+
+@keyframes fillBars{
+	from{
+		width: 0;
+	}
+	to{
+		width: 100%;
+	}
 }
 
 .footer {
