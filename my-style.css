@@ -94,6 +94,11 @@ body{
 	min-width: 75px;
 }
 
+.main-content label i{
+	color: #9F2042;
+	width: 20px;
+	padding-right: 10px;
+}
 
 .skills{
 	border-color: #9F2042;
@@ -165,7 +170,7 @@ body{
 
 .contact-form-text{
 	font-size: 18px;
-	display: block;
+	display: inline;
 	width: 100%;
 	box-sizing: border-box;
 	margin: 15px 0px;
