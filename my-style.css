@@ -63,10 +63,14 @@ body{
 .main-content dl{
 	display: inline-block;
 	margin-left: 20px;
-	margin-top: 0px;
+	margin-top: 20px;
 	border-left-style: solid;
 	border-color: #9F2042;
 	padding: 0px 20px 0px 20px;
+}
+
+.main-content dd{
+	font-size: 13px;
 }
 
 .main-content img{
